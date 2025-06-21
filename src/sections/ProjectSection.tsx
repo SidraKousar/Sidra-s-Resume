@@ -1,4 +1,6 @@
+// eslint-disable-next-line
 import React from "react";
+
 import ProjectCard from "../components/ProjectCard";
 import img1 from "../assets/projects/project1-img1.avif";
 import img2 from "../assets/projects/project1-img2.avif";

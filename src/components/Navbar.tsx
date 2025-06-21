@@ -1,4 +1,7 @@
-import React, { useEffect, useState } from "react";
+// eslint-disable-next-line
+import React from "react";
+
+import { useEffect, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 
 const Navbar = () => {
