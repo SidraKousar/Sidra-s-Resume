@@ -13,7 +13,7 @@ const Navbar = () => {
       const sections = ["about", "projects", "contact"];
       const scrollY = window.scrollY + 100;
 
-      for (let id of sections) {
+      for (const id of sections) {
         const section = document.getElementById(id);
         if (section && section.offsetTop <= scrollY && section.offsetTop + section.offsetHeight > scrollY) {
           setActiveLink(id);
